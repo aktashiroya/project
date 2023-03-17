@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listing</title>
+  <!-----------------------------------------bootstrap flie----------------------------------------------->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+
+  <!-----------------------------------------------Favicon------------------------------------------------>
+  <link rel="icon" type="image/png" href="image/favicon.png">
+
+  <!----------------------------------------- custome css file ------------------------------------------->
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!------------------------------------font awesome icon file-------------------------------------------->
+
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+  <!---------------------------------Owl Carousel Slider CSS File----------------------------------------->
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+  <!---------------------------------------Animation CSS File--------------------------------------------->
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
+</head>
+
+<body>
+
+  	<!-- loader -->
+    <div class="loader" >
+        <div class="loader-wrap">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+	<!-- scroll to top -->
+	<div class="scrollToTop">
+		<i class="fa fa-angle-up"></i>
+	</div>
+
+
+  <header>
+    <div class="bg-theme">
+      <div class="container p_relative">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto ">
+            <div class="bg py-2">
+              <img src="image/logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-auto input_div d-none d-xl-block">
+            <input class="form-control py-2" type="text" placeholder="search...">
+            <i class="fa fa-search search_icon"></i>
+          </div>
+          <div class="col-auto">
+            <ul class="d-flex main_menu d-none d-xl-flex">
+              <li class="pe-3">
+                <a href="index.html ">Home<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub_menu">
+                  <li><a href="#">home one</a></li>
+                  <li><a href="#">home two</a></li>
+                  <li><a href="#">home three</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Pages<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub_menu">
+                  <li><a href="about us.html">About Us</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Dashboard </a></li>
+                  <li><a href="#">Pricing Plan</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms And Conditions</a></li>
+                  <li><a href="#">Coming Soon</a></li>
+                  <li><a href="#">404 Page</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Listing<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub_menu">
+                  <li><a href="#">Listing</a></li>
+                  <li><a href="#">Listing Map</a></li>
+                  <li><a href="#">Single Listing</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Agents<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub_menu">
+                  <li><a href="#">Agents</a></li>
+                  <li><a href="#">Single Agents</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Blog<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub_menu">
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#">Single Blog</a></li>
+                </ul>
+              </li>
+              <li class="pe-3"><a href="contact us.html">Contact Us</a></li>
+            </ul>
+
+
+            <div class="toggle d-block d-xl-none">
+              <i class="fa fa-bars"></i>
+            </div>
+
+
+            <ul class="main">
+              <li class="pe-3">
+                <a href="index.html">Home<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub">
+                  <li><a href="#">home one</a></li>
+                  <li><a href="#">home two</a></li>
+                  <li><a href="#">home three</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Pages<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub">
+                  <li><a href="about us.html">About Us</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Dashboard </a></li>
+                  <li><a href="#">Pricing Plan</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms And Conditions</a></li>
+                  <li><a href="#">Coming Soon</a></li>
+                  <li><a href="#">404 Page</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Listing<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub">
+                  <li><a href="listing.html">Listing</a></li>
+                  <li><a href="#">Listing Map</a></li>
+                  <li><a href="#">Single Listing</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Agents<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub">
+                  <li><a href="#">Agents</a></li>
+                  <li><a href="#">Single Agents</a></li>
+                </ul>
+              </li>
+              <li class="pe-3">
+                <a href="#">Blog<i class="fas fa-angle-down ms-2"></i></a>
+                <ul class="sub">
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#">Single Blog</a></li>
+                </ul>
+              </li>
+              <li class="pe-3"><a href="contact us.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-auto d-none d-xl-block">
+            <i class="far fa-heart like-icon">
+              <div class="before"></div>
+              <div class="font">0</div>
+            </i>
+            <i class="far fa-user like-icon px-1"></i>
+            <button type="button" class="btn ">
+              Add Listing
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!---------------------------------------banner start------------------------------------------->
+  <div class="banner-bg">
+    <div class="container">
+      <div class="page-content-title">
+        <h2>Listing</h2>
+        <ul>
+          <li class="cross">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="active">
+            Listing
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!---------------------------------------banner end-------------------------------------------->
+
+  <!---------------------------------------listing-area start------------------------------------->
+  <div class="listing-area py_100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="widget-sidebar ml-15">
+                    <div class="sidebar-widget filter-form">
+                        <h3>Filter search</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control style" placeholder="Current Location">
+                                <i class="fa fa-map-marker-alt icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-select form-control" aria-label="Default select example">
+                                    <option selected="">All Categories</option>
+                                    <option value="1">House</option>
+                                    <option value="2">Hotel</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-select form-control" aria-label="Default select example">
+                                    <option selected="">All Statuses</option>
+                                    <option value="1">House</option>
+                                    <option value="2">Hotel</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-select form-control" aria-label="Default select example">
+                                    <option selected="">Price</option>
+                                    <option value="1">$2000</option>
+                                    <option value="2">$3000</option>
+                                </select>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Bedroom</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Any</option>
+                                            <option value="1">2</option>
+                                            <option value="2">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Bedrooms</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Any</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Floors</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Any</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Parking</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Any</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Building Size</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Min SF</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Building Size</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Max SF</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Lot Size</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Min</option>
+                                            <option value="1">14''</option>
+                                            <option value="2">20''</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Max</label>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected="">Min</option>
+                                            <option value="1">25''</option>
+                                            <option value="2">33''</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="amenities-wrap">
+                                <h3>Amenities</h3>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="mb-20">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Parking
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-2">
+                                                <label class="form-check-label" for="flexCheckDefault-2">
+                                                    Refrigerator
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-3">
+                                                <label class="form-check-label" for="flexCheckDefault-3">
+                                                    Laundry
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-4">
+                                                <label class="form-check-label" for="flexCheckDefault-4">
+                                                    Window Coverings
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-5">
+                                                <label class="form-check-label" for="flexCheckDefault-5">
+                                                    Barbeque
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-6">
+                                                <label class="form-check-label" for="flexCheckDefault-6">
+                                                    Grage
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="mb-20">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-7">
+                                                <label class="form-check-label" for="flexCheckDefault-7">
+                                                    Parking
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-8">
+                                                <label class="form-check-label" for="flexCheckDefault-8">
+                                                    Swimming Pool
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-9">
+                                                <label class="form-check-label" for="flexCheckDefault-9">
+                                                    Fitness Gym
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-10">
+                                                <label class="form-check-label" for="flexCheckDefault-10">
+                                                    Security Garage 
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-11">
+                                                <label class="form-check-label" for="flexCheckDefault-11">
+                                                    Fireplace
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="flexCheckDefault-12">
+                                                <label class="form-check-label" for="flexCheckDefault-12">
+                                                    Basement
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <button class="default-btn">
+                                            Save Search
+                                        </button>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <button class="default-btn mt-20">
+                                            Reset All Filters
+                                        </button>     
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="list-wrap">
+                    <div class="mb-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <p>248 Results Found</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <select class="form-select form-control" aria-label="Default select example">
+                                    <option selected="">All Categories</option>
+                                    <option value="1">House</option>
+                                    <option value="2">Hotel</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-featured-item">
+                                <div class="featured-img mb-0">
+                                    <img src="image/listing/asset 4.jpeg" alt="Image">
+                                    <span>Rent</span>
+                                    <ul class="d-flex justify-content-between">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <button type="submit">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="featured-content style-three">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>
+                                            <a href="#">House For Rent</a>
+                                        </h3>
+                                        <h3 class="price">$ 600,000</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        77 Morris St. Ridgewood, NJ 67655
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-bed"></i>
+                                            5 Bed
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-wheelchair"></i>
+                                            5 Bath
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-ruler-combined"></i>
+                                            1000 Sqft
+                                        </li>
+                                    </ul>
+        
+                                    <a href="#" class="agent-user">
+                                        <img src="image/listing/asset 5.jpeg" alt="Image">
+                                        <span>By Darlene Small</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-featured-item">
+                                <div class="featured-img mb-0">
+                                    <img src="image/listing/asset 6.jpeg" alt="Image">
+                                    <span>Sale</span>
+                                    <ul class="d-flex justify-content-between">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <button type="submit">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="featured-content style-three">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>
+                                            <a href="#">House For Sall</a>
+                                        </h3>
+                                        <h3 class="price">$ 900,000</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        7788 Randall Mill Drive Waldorf, MD 22666
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-bed"></i>
+                                            6 Bed
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-wheelchair"></i>
+                                            5 Bath
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-ruler-combined"></i>
+                                            1200 Sqft
+                                        </li>
+                                    </ul>
+        
+                                    <a href="#" class="agent-user">
+                                        <img src="image/listing/asset 7.jpeg" alt="Image">
+                                        <span>By Florence Prada</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-featured-item">
+                                <div class="featured-img mb-0">
+                                    <img src="image/listing/asset 8.jpeg" alt="Image">
+                                    <span>Rent</span>
+                                    <ul class="d-flex justify-content-between">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <button type="submit">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="featured-content style-three">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>
+                                            <a href="#">House For Rent</a>
+                                        </h3>
+                                        <h3 class="price">$ 700,000</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        33 Winding Way Ave. New Bern, NC 28280
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-bed"></i>
+                                            5 Bed
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-wheelchair"></i>
+                                            4 Bath
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-ruler-combined"></i>
+                                            1150 Sqft
+                                        </li>
+                                    </ul>
+        
+                                    <a href="#" class="agent-user">
+                                        <img src="image/listing/asset 9.jpeg" alt="Image">
+                                        <span>By Anthony Nguyen</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-featured-item">
+                                <div class="featured-img mb-0">
+                                    <img src="image/listing/asset 10.jpeg" alt="Image">
+                                    <span>Sale</span>
+                                    <ul class="d-flex justify-content-between">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <button type="submit">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="featured-content style-three">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>
+                                            <a href="#">House For Sall</a>
+                                        </h3>
+                                        <h3 class="price">$ 600,000</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        77 Morris St. Ridgewood, NJ 67655
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-bed"></i>
+                                            3 Bed
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-wheelchair"></i>
+                                            3 Bath
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-ruler-combined"></i>
+                                            1050 Sqft
+                                        </li>
+                                    </ul>
+        
+                                    <a href="#" class="agent-user">
+                                        <img src="image/listing/asset 11.jpeg" alt="Image">
+                                        <span>By Darlene Small</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-featured-item">
+                                <div class="featured-img mb-0">
+                                    <img src="image/listing/asset 12.jpeg" alt="Image">
+                                    <span>Sale</span>
+                                    <ul class="d-flex justify-content-between">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <button type="submit">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="featured-content style-three">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>
+                                            <a href="#">House For Rent</a>
+                                        </h3>
+                                        <h3 class="price">$ 600,000</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        77 Morris St. Ridgewood, NJ 67655
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-bed"></i>
+                                            3 Bed
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-wheelchair"></i>
+                                            3 Bath
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-ruler-combined"></i>
+                                            1050 Sqft
+                                        </li>
+                                    </ul>
+        
+                                    <a href="#" class="agent-user">
+                                        <img src="image/listing/asset 11.jpeg" alt="Image">
+                                        <span>By Darlene Small</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-featured-item">
+                                <div class="featured-img mb-0">
+                                    <img src="image/listing/asset 13.jpeg" alt="Image">
+                                    <span>Sale</span>
+                                    <ul class="d-flex justify-content-between">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <button type="submit">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="featured-content style-three">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>
+                                            <a href="#">House For Sale</a>
+                                        </h3>
+                                        <h3 class="price">$ 600,000</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        77 Morris St. Ridgewood, NJ 67655
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-bed"></i>
+                                            3 Bed
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-wheelchair"></i>
+                                            3 Bath
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-ruler-combined"></i>
+                                            1050 Sqft
+                                        </li>
+                                    </ul>
+        
+                                    <a href="#" class="agent-user">
+                                        <img src="image/listing/asset 11.jpeg" alt="Image">
+                                        <span>By Darlene Small</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="pagination-area">   
+                                <a href="#" class="next page-numbers">
+                                    <i class="fa fa-arrow-left"></i>
+                                </a>
+                                <span class="page-numbers current" aria-current="page">1</span>
+                                <a href="#" class="page-numbers">2</a>
+                                <a href="#" class="page-numbers">3</a>
+                                
+                                <a href="#" class="next page-numbers">
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!---------------------------------------listing-area end------------------------------------->
+
+
+
+<!-------------------------------------------app-area start-------------------------------------------->
+<div class="app-area py-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="app-content wow animate__animated animate__fadeInLeft delay-0-2s animated">
+            <h2>Download today and get your free copy from Apple and Play Store</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="app-btn wow animate__animated animate__fadeInRight delay-0-2s animated">
+            <a href="#">
+              <img src="image/asset 42.png" alt="">
+            </a>
+            <a href="#">
+              <img src="image/asset 43.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------------app-area end-------------------------------------------->
+  
+  
+  
+  <!----------------------------------------footer-area start------------------------------------->
+  <div class="footer-area py-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-footer-widget wow animate__animated animate__fadeInUp delay-0-2s animated">
+            <a href="#">
+              <img src="image/logo.png" alt="">
+            </a>
+            <p>We are a great agency for buying and selling your property with confidence.
+              So you can easily buy and sell through our company.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-footer-widget wow animate__animated animate__fadeInUp delay-0-4s animated">
+            <h3>Contacts Info</h3>
+            <ul class="contact-info">
+              <li><i class="fas fa-map-marker-alt"></i>
+                7755 Grand Ave, Coconut Grove, Merrick Way, KY 44555
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>+1 719-504-1984
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>info@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-footer-widget wow animate__animated animate__fadeInUp delay-0-6s animated">
+            <h3>Helpful Links</h3>
+            <ul class="help-link">
+              <li><i class="fas fa-caret-right"></i><a href="about us.html">About Us</a></li>
+              <li><i class="fas fa-caret-right"></i><a href="contact us.html">Contact Us</a></li>
+              <li><i class="fas fa-caret-right"></i><a href="#">Terms & Conditions</a> </li>
+              <li><i class="fas fa-caret-right"></i><a href="#">Privacy Policy</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-footer-widget wow animate__animated animate__fadeInUp delay-0-8s animated">
+            <h3>Newsletter</h3>
+            <p>Stay Informed through our newsletter & get offers any time!</p>
+            <div class="email_section">
+                <input class="form-control py-2" type="email" placeholder="your email address">
+                <button class="submit-btn " type="submit"><i class="fas fa-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------------------footer-area end------------------------------------->
+  
+  
+   <!------------------------------------------footer header start------------------------------------------>
+   <div class="copy-right-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 wow animate__animated animate__fadeInLeft delay-0-2s animated" style="visibility: visible; animation-name: fadeInLeft;">
+          <p>Copyright @<span id="year">2022</span> Rello. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+        </div>
+        <div class="col-lg-6">
+          <div class="language wow animate__animated animate__fadeInRight delay-0-2s animated" style="visibility: visible; animation-name: fadeInRight;">
+            <select class="form-select" aria-label="Default select example">
+              <option selected="">Language</option>
+              <option value="1">English</option>
+              <option value="2">Arabic</option>
+              <option value="3">Germany</option>
+            </select>
+            <i class="fa fa-globe"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------footer header and------------------------------------------>
+  
+  
+  
+  <!-----------------------------------------------js file----------------------------------------------->
+  
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/default.js"></script>
+  </body>
+  </html>

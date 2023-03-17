@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services Section</title>
+
+    <style type="text/css">
+        .pt-100 {
+            padding-top: 100px;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: auto;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .rs-services.main-home.style1 .techno_flipbox {
+            perspective: 1000px;
+            position: relative;
+            transform-style: preserve-3d;
+            z-index: 1;
+
+        }
+
+        .techno_flipbox .techno_flipbox_font,
+        .techno_flipbox .techno_flipbox_back {
+            min-height: 223px;
+        }
+
+        .top_feature .techno_flipbox .techno_flipbox_font {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+            border: 0;
+        }
+
+        .techno_flipbox .techno_flipbox_font,
+        .techno_flipbox .techno_flipbox_back {
+            min-height: 250px;
+            height: auto;
+            box-shadow: 0px 1px 51.3px 5.7px rgb(137 143 156 / 15%);
+            backface-visibility: hidden;
+            transform: rotateX(0);
+            transform-style: preserve-3d;
+            transition: transform .7s ease, -webkit-transform .7s ease;
+            position: relative;
+        }
+
+        .techno_flipbox .techno_flipbox_inner {
+            text-align: center;
+            padding: 0 25px;
+            border-radius: 2px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            perspective: inherit;
+            outline: transparent solid 1px;
+            backface-visibility: hidden;
+            transform: translateY(-50%) translateZ(60px) scale(0.94);
+            z-index: 2;
+        }
+
+        .top_feature.two .icon {
+            color: #fff;
+            font-size: 40px;
+            line-height: 90px;
+            height: 90px;
+            width: 90px;
+            background: #0c5adb;
+            border-radius: 33% 66% 70% 30%/49% 62% 38% 51% !important;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="rs-services main-home style1 pt-100">
+        <div class="container">
+            <div class="row flex">
+                <div class="col-lg-3 col-md-6 md-mb-30">
+                    <div class="techno_flipbox mb-30">
+                        <div class="techno_flipbox_font">
+                            <div class="techno_flipbox_inner">
+                                <div class="techno_flipbox_icon">
+                                    <div class="icon"></div>
+                                </div>
+                                <div class="flipbox_title">
+                                    <h3>Responsive Design</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-content">
+                            <div class="services-text">
+                                <h3 class="services-title"><a href="#">IT Management</a></h3>
+                            </div>
+                            <div class="services-desc">
+                                <p>
+                                    Quisque placerat vitae lacus ut scelerisque fusce luctus odio ac nibh luctu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
